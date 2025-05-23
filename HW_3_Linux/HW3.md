@@ -42,8 +42,9 @@ EOF
 
 # 2. Используя awk, выведите все слова, содержащие букву o, и номер строки, где они находятся.
 awk '/o/ { print NR, $0 }' ~/table
-![alt text](image.png)
 ```
+![alt text](image.png)
+
 Задание 3
 ```bash
 # 1.Установка pwgen
@@ -69,6 +70,5 @@ sudo apt install acl
 sudo setfacl -m u:test:rwX /home/ubuntu
 su - test
 rm /home/ubuntu/table
-
-![alt text](image-1.png)
 ```
+![alt text](image-1.png)
